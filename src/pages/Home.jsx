@@ -109,9 +109,6 @@ const Home = () => {
             <h2 className="text-2xl font-bold text-gray-800">
               Featured Talents
             </h2>
-            <button className="text-blue-800 flex items-center hover:text-blue-900">
-              View All <ChevronRight className="w-4 h-4 ml-1" />
-            </button>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -140,12 +137,7 @@ const Home = () => {
         {/* Trending Events */}
         <section className="mb-16">
           <div className="flex justify-between items-center mb-6">
-            <h2 className="text-2xl font-bold text-gray-800">
-              Trending Events
-            </h2>
-            <button className="text-blue-800 flex items-center hover:text-blue-900">
-              View All <ChevronRight className="w-4 h-4 ml-1" />
-            </button>
+            <h2 className="text-2xl font-bold text-gray-800">Our Events</h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -164,9 +156,6 @@ const Home = () => {
                   <div className="flex items-center mt-2 text-gray-600">
                     <span>{event.date}</span>
                   </div>
-                  <button className="mt-3 text-blue-800 hover:text-blue-900">
-                    Learn More
-                  </button>
                 </div>
               </div>
             ))}
